@@ -1,0 +1,16 @@
+/* Стили для границ таблицы */
+#myTable {
+    border-collapse: collapse; /* Объединение границ ячеек */
+    margin: 20px /* Отступ от границ таблицы */
+}
+
+#myTable th, #myTable td {
+    border: 1px solid #dddddd; /* Границы ячеек и заголовков */
+    text-align: left; /* Выравнивание текста в ячейках */
+    padding: 8px; /* Внутренний отступ ячеек */
+}
+
+#myTable th {
+    background-color: #f2f2f2; /* Цвет фона заголовков */
+    text-align: center; /* Выравнивание текста в ячейках */
+}
